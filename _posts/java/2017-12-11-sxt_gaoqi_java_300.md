@@ -1,9 +1,10 @@
 ---
 title: "JAVA300集视频教程"
 categories:
-  - java
+  - lang
 tags:
   - 初级
+  - Java
 comments: true
 ---
 北京尚学堂高淇出品，比较老，主要是Java6、7  

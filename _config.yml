@@ -79,7 +79,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/avatar.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "我是一个无趣的人，正在寻找生活的乐趣."
+  bio              : "无趣的人正在寻找生活的乐趣..."
   location         : "NanKing, CN"
   email            : "z29759@gmail.com"
   uri              :
@@ -87,7 +87,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : *facebook
+  facebook         : #*facebook
   foursquare       :
   github           : "zerodollar"
   google_plus      :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :  *twitter
+  twitter          : # *twitter
   vine             :
   weibo            :
   xing             :
