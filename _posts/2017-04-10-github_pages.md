@@ -55,13 +55,15 @@ search: true
 comments: true
 ```
 业界老大disqus被墙，翻墙有教程。Disqus去[Disqus官方网站](https://disqus.com) 注册账号，在setting中选择add disqus to site，填写 Site URL，Site Name，Site Shortname。在<名字>.disqus.com中setting/advanced的Trusted Domains添加域名。
-样例使用了staticman_v2，这是一个支持github和jekyll的非常好用的静态博客评论，评论和博客在一个站点上。
-staticman.yml path修改成_data/comments目录下，并建立_data/comments目录
-moderation: false 不需要审批自动提交
+样例使用了staticman_v2，这是一个支持github和jekyll的非常好用的静态博客评论，评论和博客在一个站点上。  
+staticman.yml中path修改成_data/comments目录下，并建立_data/comments目录
+moderation: false 表示不需要审批自动提交
 参考[STATICMAN指导](https://staticman.net/docs/index.html)
   - 仓库
   博客项目Settings/Collaborators添加staticmanapp，访问https://api.staticman.net/v2/connect/zerodollar/zerodollar.github.io/， 生效请求。
 
+- RSS订阅
+访问[](https://feedburner.google.com)Burn a feed right this instant
 - 分享  
 百度分享 ？
 - 自动生成分类目录  

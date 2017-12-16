@@ -1,10 +1,11 @@
 # main links
 main:
   - title: "人生琐事"
-    url: /life/
+    url: /categories/#life/
   - title: "编程语言"
-    url: /lang/
+    url: /categories/#lang/
   - title: "业务系统"
-    url: /business/
+    url: /categories/#business/
   - title: "工具"
-    url: /tools/
+    url: /categories/#tools/
+# refer to _pages/*html
