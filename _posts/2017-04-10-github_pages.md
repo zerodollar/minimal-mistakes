@@ -57,7 +57,7 @@ search: true
   - github配置  
   博客项目Settings/Collaborators添加staticmanapp，访问https://api.staticman.net/v2/connect/zerodollar/zerodollar.github.io/， 生效请求。
   - jekyll配置  
-  staticman.yml中path修改成_data/comments目录下，并建立_data/comments目录。  
+  staticman.yml（staticman会读取该文件）中path修改成_data/comments目录下，并建立_data/comments目录。  
   moderation: false 表示不需要审批自动提交  
   comments: true
   - reCaptcha
