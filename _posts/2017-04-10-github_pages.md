@@ -56,6 +56,7 @@ comments: true
 ```
 业界老大disqus被墙，翻墙有教程。Disqus去[Disqus官方网站](https://disqus.com) 注册账号，在setting中选择add disqus to site，填写 Site URL，Site Name，Site Shortname。在<名字>.disqus.com中setting/advanced的Trusted Domains添加域名。
 样例使用了staticman_v2，这是一个支持github和jekyll的非常好用的静态博客评论，评论和博客在一个站点上。
+staticman.yml path: mkdir -p docs/_data/comments/
 
 - 分享  
 百度分享 ？
@@ -108,23 +109,4 @@ tags|类似categories
 
 excerpt_separator，文章第一次匹配前部分为摘要
 集合Collections，除了文章特性，还有特有的属性和命名空间
-
-
-
-
-
-
-*  _data/navigation.yml
-每一个title是一个导航菜单项
-* _data/ui-text.yml
-多语言支持，默认不用修改
-* _config.yml 
-
-```
-url                      : "https://zerodollar.github.io"
-repository               : "zerodollar/blog"
-
-```
-# 访问
-
 
