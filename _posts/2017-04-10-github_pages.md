@@ -60,6 +60,7 @@ search: true
   staticman.yml（staticman会读取该文件）中path修改成_data/comments目录下，并建立_data/comments目录。  
   moderation: false 表示不需要审批自动提交  
   comments: true
+  注意repository配置，否则可能返回错误GITHUB_READING_FILE
   - reCaptcha
   防止机器攻击。
 
